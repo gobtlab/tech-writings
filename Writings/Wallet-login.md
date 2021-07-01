@@ -43,7 +43,7 @@ evade major sniffing attacks and dns spoofing attacks. *(2 channel authenticatio
 ## Validation Logic
 The basic notion of wallet login is to use **sign** feature of wallet to authentication user's validity.
 
-![Basic wallet login logic](../main/assets/image/wallet-login-basic-logic.png)
+![Basic wallet login logic](../assets/image/wallet-login-basic-logic.png)
 
 To elaborate each procedures in wallet login 
 
