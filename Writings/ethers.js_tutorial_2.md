@@ -22,9 +22,11 @@
 const { ethers } = require('ethers');
 
 const privateKey = 'Your private key';
-const url = 'https://ropsten.infura.io/v3/be15baa2efca4597aaaaf94c7e776973'; // Ethereum Ropsten testnet
+
 // 해당 URL은 필자가 개별로 Infura에서 생성한 프로젝트 URL입니다.
 // https://infura.io 에서 가입 후 직접 프로젝트를 생성해 개인 설정 하시는 것을 추천합니다.
+const url = 'https://ropsten.infura.io/v3/be15baa2efca4597aaaaf94c7e776973'; // Ethereum Ropsten testnet
+
 
 let from = '전송하는 사용자의 지갑 주소 입력';
 let to = '전송받는 지갑 주소 입력';
@@ -62,7 +64,7 @@ async function send(from, to, amount) {
 
 
 ## 전송 결과값 예시
-```json
+```JSON
 {
   type: 2,
   chainId: 3,
