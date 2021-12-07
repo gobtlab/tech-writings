@@ -64,7 +64,7 @@ async function send(from, to, amount) {
 
 
 ## 전송 결과값 예시
-```JSON
+```js
 {
   type: 2,
   chainId: 3,
