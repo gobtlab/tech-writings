@@ -1,9 +1,9 @@
 # ethers.js 튜토리얼 - 3
 
-## Token 전송 예제
+## 내용
 ERC-20 Token 전송 예제입니다.
 
-### 사용 순서
+### 실습 순서
 1. 보내는 사람 지갑의 개인키(privateKey)를 입력
 2. 함수호출에 사용할 매개변수 입력
  - 전송할 ERC-20 Token의 컨트랙트 주소(contractAddress)
@@ -13,7 +13,7 @@ ERC-20 Token 전송 예제입니다.
 4. 전송이 완료되었다면 상세내역(receipt)이 출력됨
 
 
-### send() 함수 설명
+### ERC-20 Token 전송 함수 설명( sendToken() )
 1. 네트워크 노드 URL로 provider 객체 생성
 2. 개인키로 signer 객체를 생성
 3. ERC-20 Token 컨트랙트 주소, ABI, Signer 객체를 매개변수로 지정 후 Contract 객체 생성
